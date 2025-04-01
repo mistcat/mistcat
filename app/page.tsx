@@ -1,6 +1,3 @@
-import Image from "next/image";
-
-import BackgroundImage from "@/assets/images/mistcat.jpeg";
 
 export default function Home() {
   return (
