@@ -7,11 +7,11 @@ export default function Home() {
       {/* ... (previous header code remains unchanged) ... */}
       <main className="bg-[url('/mistcat.jpeg')] h-screen bg-cover bg-no-repeat">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-transparent to-indigo-900/70	 text-white overflow-hidden h-screen">
+        <section className="relative bg-gradient-to-br from-transparent to-indigo-900/70	text-white overflow-hidden h-screen">
           <div className="container mx-auto px-4 py-24 md:py-32 relative z-10">
             <div className="flex flex-col md:flex-row items-center justify-between">
               {/* Left Side: Company Info */}
-              <div className="w-full md:w-1/2 mb-12 md:mb-0">
+              <div className="p-12 mb-12 md:mb-0 bg-green-900/60 rounded-2xl">
                 <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
                   Learn.
                   <br />
